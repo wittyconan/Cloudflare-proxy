@@ -9,7 +9,7 @@ let connect = (await import(atob('Y2xvdWRmbGFyZTpzb2NrZXRz'))).connect;
 
 let password = '123456';  // 主页登录密码,建议修改或添加 PASSWORD环境变量
 let relayIP = 'ProxyIP.CMLiussss.net';  // pro-xyip，格式：ip、域名、ip:port、域名:port等,没填写port，默认使用443
-let mainID = 'f0ebd662-288e-42cd-b679-87c4b4f587e4'; // 节点UU-ID和TG代理的secret,建议修改或添加环境变量
+let mainID = '1d716de8-4e40-4d73-8664-ad106f62d8f7'; // 节点UU-ID和TG代理的secret,建议修改或添加环境变量
 let subPath = 'link';     // 订阅token,不修改将使用通行UU-ID作为订阅路径
 let disabletro = false;  // 是否关闭tro-jan协议, 设置为true时关闭，false开启，默认开启 
 let disableech = true;  // 是否关闭ECH, 设置为true时关闭，false开启，默认关闭
